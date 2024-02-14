@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+}
+.sidebar {
+  position: relative;
+  z-index: 20;
+  width: 200px;
+  height: 100vh;
+  background-color: red;
+}
+.content {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  text-align: center;
+  background-color: #fff;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.inner {
+  position: absolute;
+  inset: 40% 0 0 40%;
+
+  width: 200px;
+  height: 200px;
+
+  background-color: #fff;
+}
